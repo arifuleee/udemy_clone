@@ -1,0 +1,7 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Course Details</h2>
+    {{ course_component(course) }}
+    {{ review_form(course['id']) }}
+{% endblock %}
